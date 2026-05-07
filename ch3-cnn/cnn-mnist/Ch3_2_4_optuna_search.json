@@ -1,5 +1,24 @@
 [
   {
+    "trial": 79,
+    "score": 87.75,
+    "wrong_count": 49,
+    "seed": 12086,
+    "filters_1": 48,
+    "filters_2": 96,
+    "dense_units": 640,
+    "dropout_1": 0.2,
+    "dropout_2": 0.5,
+    "dropout_dense": 0.5,
+    "optimizer": "adam",
+    "learning_rate": 0.00147,
+    "label_smoothing": 0.01,
+    "epochs": 12,
+    "batch_size": 128,
+    "validation_split": 0.2,
+    "file": "score_87.750000_f1-48_f2-96_dense-640_d1-0.20_d2-0.50_dd-0.50_opt-adam_lr-0.00147_ls-0.01_bs-128_ep-12_vs-0.2_trial_0079.keras"
+  },
+  {
     "trial": 75,
     "score": 86.5,
     "wrong_count": 54,
@@ -17,6 +36,13 @@
     "batch_size": 128,
     "validation_split": 0.2,
     "file": "score_86.500000_f1-48_f2-96_dense-640_d1-0.20_d2-0.50_dd-0.50_opt-adam_lr-0.00148_ls-0.01_bs-128_ep-12_vs-0.2_trial_0075.keras"
+  },
+  {
+    "trial": "current_after_trial_77",
+    "score": 86.5,
+    "wrong_count": 54,
+    "seed": null,
+    "file": "score_current_best.keras"
   },
   {
     "trial": 67,
@@ -252,6 +278,25 @@
     "file": "score_85.000000_f1-48_f2-96_dense-640_d1-0.20_d2-0.50_dd-0.50_opt-adam_lr-0.00155_ls-0.01_bs-128_ep-12_vs-0.2_trial_0072.keras"
   },
   {
+    "trial": 78,
+    "score": 85.0,
+    "wrong_count": 60,
+    "seed": 12085,
+    "filters_1": 48,
+    "filters_2": 96,
+    "dense_units": 640,
+    "dropout_1": 0.2,
+    "dropout_2": 0.5,
+    "dropout_dense": 0.5,
+    "optimizer": "adam",
+    "learning_rate": 0.00148,
+    "label_smoothing": 0.01,
+    "epochs": 12,
+    "batch_size": 128,
+    "validation_split": 0.2,
+    "file": "score_85.000000_f1-48_f2-96_dense-640_d1-0.20_d2-0.50_dd-0.50_opt-adam_lr-0.00148_ls-0.01_bs-128_ep-12_vs-0.2_trial_0078.keras"
+  },
+  {
     "trial": 24,
     "score": 84.5,
     "wrong_count": 62,
@@ -284,6 +329,44 @@
     "epochs": 12,
     "batch_size": 128,
     "file": "score_84.500000_f1-48_f2-96_dense-640_d1-0.20_d2-0.50_dd-0.50_opt-adam_lr-0.0016_bs-128_ep-12_trial_0044.keras"
+  },
+  {
+    "trial": 80,
+    "score": 84.5,
+    "wrong_count": 62,
+    "seed": 12087,
+    "filters_1": 48,
+    "filters_2": 96,
+    "dense_units": 640,
+    "dropout_1": 0.2,
+    "dropout_2": 0.5,
+    "dropout_dense": 0.5,
+    "optimizer": "adam",
+    "learning_rate": 0.00149,
+    "label_smoothing": 0.01,
+    "epochs": 12,
+    "batch_size": 128,
+    "validation_split": 0.2,
+    "file": "score_84.500000_f1-48_f2-96_dense-640_d1-0.20_d2-0.50_dd-0.50_opt-adam_lr-0.00149_ls-0.01_bs-128_ep-12_vs-0.2_trial_0080.keras"
+  },
+  {
+    "trial": 81,
+    "score": 84.5,
+    "wrong_count": 62,
+    "seed": 12088,
+    "filters_1": 48,
+    "filters_2": 96,
+    "dense_units": 640,
+    "dropout_1": 0.2,
+    "dropout_2": 0.5,
+    "dropout_dense": 0.5,
+    "optimizer": "adam",
+    "learning_rate": 0.00148,
+    "label_smoothing": 0.009,
+    "epochs": 12,
+    "batch_size": 128,
+    "validation_split": 0.2,
+    "file": "score_84.500000_f1-48_f2-96_dense-640_d1-0.20_d2-0.50_dd-0.50_opt-adam_lr-0.00148_ls-0.009_bs-128_ep-12_vs-0.2_trial_0081.keras"
   },
   {
     "trial": 20,
