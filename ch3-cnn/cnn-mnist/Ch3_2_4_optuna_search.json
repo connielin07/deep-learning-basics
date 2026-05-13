@@ -1,5 +1,236 @@
 [
   {
+    "trial": "subset_round2_error_index_ensemble_after_200",
+    "score": 90.0,
+    "wrong_count": 40,
+    "seed": 812570012,
+    "selected_member_names": [
+      "current_final",
+      "trial_0138"
+    ],
+    "selected_indices": [
+      0,
+      2
+    ],
+    "weights": [
+      0.8959326322151766,
+      0.10406736778482338
+    ],
+    "current_score": 89.5,
+    "current_wrong_count": 42,
+    "fixed_errors": 2,
+    "new_errors": 0,
+    "error_analysis": [
+      {
+        "name": "trial_0127",
+        "score": 86.25,
+        "wrong_count": 55,
+        "fixed_errors": 10,
+        "new_errors": 23,
+        "corrected_current_error_count": 10
+      },
+      {
+        "name": "trial_0138",
+        "score": 86.75,
+        "wrong_count": 53,
+        "fixed_errors": 8,
+        "new_errors": 19,
+        "corrected_current_error_count": 8
+      },
+      {
+        "name": "trial_0140",
+        "score": 86.75,
+        "wrong_count": 53,
+        "fixed_errors": 7,
+        "new_errors": 18,
+        "corrected_current_error_count": 7
+      },
+      {
+        "name": "trial_0075",
+        "score": 86.5,
+        "wrong_count": 54,
+        "fixed_errors": 7,
+        "new_errors": 19,
+        "corrected_current_error_count": 7
+      },
+      {
+        "name": "trial_0115",
+        "score": 86.5,
+        "wrong_count": 54,
+        "fixed_errors": 7,
+        "new_errors": 19,
+        "corrected_current_error_count": 7
+      },
+      {
+        "name": "trial_0113",
+        "score": 86.5,
+        "wrong_count": 54,
+        "fixed_errors": 6,
+        "new_errors": 18,
+        "corrected_current_error_count": 6
+      },
+      {
+        "name": "trial_0103",
+        "score": 86.5,
+        "wrong_count": 54,
+        "fixed_errors": 5,
+        "new_errors": 17,
+        "corrected_current_error_count": 5
+      },
+      {
+        "name": "trial_0116",
+        "score": 86.5,
+        "wrong_count": 54,
+        "fixed_errors": 5,
+        "new_errors": 17,
+        "corrected_current_error_count": 5
+      },
+      {
+        "name": "trial_0118",
+        "score": 87.0,
+        "wrong_count": 52,
+        "fixed_errors": 4,
+        "new_errors": 14,
+        "corrected_current_error_count": 4
+      },
+      {
+        "name": "trial_0134",
+        "score": 86.5,
+        "wrong_count": 54,
+        "fixed_errors": 3,
+        "new_errors": 15,
+        "corrected_current_error_count": 3
+      }
+    ],
+    "members": [
+      {
+        "name": "current_final",
+        "score": 89.5,
+        "wrong_count": 42,
+        "file": "413570012_HW5.keras"
+      },
+      {
+        "name": "trial_0138",
+        "seed": 27145,
+        "filters_1": 48,
+        "filters_2": 96,
+        "dense_units": 640,
+        "dropout_1": 0.2,
+        "dropout_2": 0.5,
+        "dropout_dense": 0.5,
+        "learning_rate": 0.00147,
+        "label_smoothing": 0.01,
+        "epochs": 12,
+        "batch_size": 128,
+        "validation_split": 0.2,
+        "score": 86.75,
+        "wrong_count": 53,
+        "wrong_indices": [
+          92,
+          321,
+          882,
+          947,
+          1014,
+          1039,
+          1112,
+          1226,
+          1232,
+          1393,
+          1878,
+          1901,
+          2053,
+          2130,
+          2135,
+          2182,
+          2293,
+          2369,
+          2414,
+          2462,
+          2597,
+          2654,
+          2896,
+          3073,
+          3225,
+          3422,
+          3441,
+          3475,
+          3520,
+          3534,
+          3558,
+          3702,
+          3762,
+          3808,
+          4176,
+          4639,
+          4740,
+          4823,
+          5937,
+          5955,
+          5997,
+          6555,
+          6576,
+          6597,
+          6625,
+          9009,
+          9015,
+          9642,
+          9679,
+          9692,
+          9698,
+          9729,
+          9839
+        ],
+        "fixed_current_errors": [
+          582,
+          1247,
+          1260,
+          2070,
+          2939,
+          6571,
+          7216,
+          9664
+        ],
+        "introduced_errors": [
+          92,
+          1039,
+          1112,
+          2053,
+          2182,
+          2369,
+          3073,
+          3225,
+          3441,
+          3475,
+          3534,
+          3702,
+          3808,
+          4639,
+          5997,
+          6555,
+          9009,
+          9679,
+          9698
+        ],
+        "fixed_errors": 8,
+        "new_errors": 19,
+        "corrected_current_errors": [
+          582,
+          1247,
+          1260,
+          2070,
+          2939,
+          6571,
+          7216,
+          9664
+        ],
+        "corrected_current_error_count": 8
+      }
+    ],
+    "file": "413570012_HW5.keras",
+    "final_model_file": "413570012_HW5.keras",
+    "file_status": "saved_subset_round2_error_index_ensemble_and_final"
+  },
+  {
     "trial": "subset_error_index_ensemble_after_199",
     "score": 89.5,
     "wrong_count": 42,
